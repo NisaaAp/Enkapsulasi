@@ -1,0 +1,20 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Enkapsulasi;
+
+/**
+ *
+ * @author User
+ */
+public class MainBola {
+    public static void main(String[] nisa) {
+        Bola bolaSepak = new Bola();
+        bolaSepak.setJariJari(14);
+        bolaSepak.showDiameter();
+        bolaSepak.showLuasPermukaan();
+        bolaSepak.showVolume();
+    }
+}
